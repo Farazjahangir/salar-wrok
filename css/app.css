@@ -1,0 +1,121 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+
+/* General Styling */
+.mx-1{
+    margin-left: 25px;
+}
+.my-1{
+    margin-top: 15px
+}
+.my-2{
+    margin-top: 12px
+}
+.my-6{
+    margin-top : 50px;
+}
+.my-7{
+    margin-top : 200px;
+}
+.bg-grey{
+    background: rgba(211, 211, 211, 0.3);
+}
+.pad-top{
+    padding-top: 140px;
+}
+.margin-bot{
+    margin-bottom: 100px;
+}
+.full-width{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+/* Header Section */
+.header{
+    background: #e74c3c;
+    display: flex;
+    justify-content: space-between;
+    padding : 12px;
+    color : white;
+}
+.links{
+    display: flex;
+    list-style-type: none;
+}
+.links li{
+    padding : 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.links li:hover{
+    text-decoration: underline
+}
+
+
+
+/* Main Section */
+.logo-div{
+    text-align: center;
+}
+.logo{
+    margin-top: 10px;
+    width: 15%;
+}
+.carousel-div{
+    height : 400px;
+    margin-top: 20px;
+}
+.left-arrow{
+    position: absolute;
+    top: 400px;
+    background: hsla(0, 0%, 83%, 0.3);
+    padding : 13px;
+    cursor: pointer;
+}
+.left-arrow img{
+    width: 40px;
+}
+.left-arrow:hover{
+    background: hsla(0, 0%, 83%, 0.6);
+}
+.right-arrow{
+    position: absolute;
+    top: 400px;
+    right : 0;
+    background: hsla(0, 0%, 83%, 0.3);
+    padding : 13px;
+    cursor: pointer;
+}
+.right-arrow img{
+    width: 40px;
+}
+.right-arrow:hover{
+    background: hsla(0, 0%, 83%, 0.6);
+}
+
+
+
+
+/* Footer Section */
+
+.footer{
+    color : white;
+    font-weight: bold;
+    margin-top : 50px;
+    background-color: #ff6348;
+    position: relative;
+    width: 100%;
+    bottom: 0; 
+    padding : 18px; 
+    box-sizing: border-box;
+}
+/* .footer-details span{
+    display: flex;
+    font-size : 18px;
+    list-style-type: none;
+}    */
